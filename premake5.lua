@@ -1,7 +1,11 @@
 project "GLFW"
 	kind "StaticLib"
 	language "C"
+<<<<<<< HEAD
 	staticruntime "on" -- TODO:different from origin
+=======
+	staticruntime "off"
+>>>>>>> 62fad91c8b5d46131e234600607d3bb6d881cf34
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
